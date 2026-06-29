@@ -23,7 +23,7 @@ npx --yes @insforge/cli@latest db export \
   --format sql \
   --include-sequences \
   --include-functions \
-  --row-limit 1000000 \
+  --row-limit 10000 \
   -o "$OUT"
 
 # Rotación: conserva los últimos 30 backups.
